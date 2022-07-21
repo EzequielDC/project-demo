@@ -4,6 +4,7 @@
   "projects": {
     "database": "libs/database",
     "demo": "apps/demo",
+    "modules": "libs/modules",
     "utilities": "libs/utilities"
   }
 }

@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@demo/database": ["libs/database/src/index.ts"],
+      "@demo/modules": ["libs/modules/src/index.ts"],
       "@demo/utilities": ["libs/utilities/src/index.ts"]
     }
   },

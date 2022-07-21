@@ -1,10 +1,10 @@
+import { Services } from '@demo/modules';
 import { Body, Controller, Delete, Post, Put } from '@nestjs/common';
-import { UserService } from './user.service';
 
 @Controller('user')
 export class UserController {
 
-    constructor(private readonly userService: UserService){}
+    constructor(private readonly userService: Services.UserService){}
 
     // Create
     @Post()
