@@ -1,5 +1,4 @@
 import { Module } from '@nestjs/common';
-import { UserCourseController } from './user-course.controller';
 import { UserCourseService } from './user-course.service';
 import { Models } from '@demo/database';
 import { TypeOrmModule } from '@nestjs/typeorm';
@@ -10,7 +9,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       Models.userCourse
     ]),
   ],
-  controllers: [UserCourseController],
+  controllers: [],
   providers: [UserCourseService],
   exports: [UserCourseService]
 })

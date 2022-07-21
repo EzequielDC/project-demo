@@ -1,6 +1,5 @@
 import { Module } from '@nestjs/common';
 import { Models } from '@demo/database';
-import { CourseController } from './course.controller';
 import { CourseService } from './course.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
 
@@ -10,7 +9,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       Models.Course
     ]),
   ],
-  controllers: [CourseController],
+  controllers: [],
   providers: [CourseService],
   exports: [CourseService]
 })
