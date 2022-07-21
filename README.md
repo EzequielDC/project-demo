@@ -28,6 +28,7 @@ Below are our core plugins:
   - `npm install --save-dev @nrwl/express`
 - [Node](https://nodejs.org)
   - `npm install --save-dev @nrwl/node`
+- [You can use postgress or MySql installed]
 
 There are also many [community plugins](https://nx.dev/community) you could add.
 
@@ -92,3 +93,5 @@ Nx Cloud pairs with Nx in order to enable you to build and test code more rapidl
 Teams using Nx gain the advantage of building full-stack applications with their preferred framework alongside Nx’s advanced code generation and project dependency graph, plus a unified experience for both frontend and backend developers.
 
 Visit [Nx Cloud](https://nx.app/) to learn more.
+
+Created by Ezequiel De Paula C. (EDC)
