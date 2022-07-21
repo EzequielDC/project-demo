@@ -1,10 +1,10 @@
 import { Body, Controller, Delete, Post, Put } from '@nestjs/common';
-import { CourseService } from './course.service';
+import { Services } from '@demo/modules';
 
 @Controller('course')
 export class CourseController {
 
-    constructor(private readonly courseService: CourseService){}
+    constructor(private readonly courseService: Services.CourseService){}
 
     // Create
     @Post()
