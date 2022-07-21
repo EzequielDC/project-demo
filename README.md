@@ -28,7 +28,11 @@ Below are our core plugins:
   - `npm install --save-dev @nrwl/express`
 - [Node](https://nodejs.org)
   - `npm install --save-dev @nrwl/node`
-- [You can use postgress or MySql installed]
+- You can use postgress or MySql
+  - [postgres](https://www.postgresql.org)
+  - [MySql](https://www.mysql.com)
+
+- Database example in the file database.sql (postgres)
 
 There are also many [community plugins](https://nx.dev/community) you could add.
 
